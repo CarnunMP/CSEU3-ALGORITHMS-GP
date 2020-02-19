@@ -10,7 +10,7 @@ def power_r(a, b):
     except ValueError:
         print("Exponent (b) must be and integer") # O(1)
         # and return
-        return
+        return # O(1)
 
     # base case
     # anything raised to the power of 0 will be one
